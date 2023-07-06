@@ -36,6 +36,9 @@ body {
   border: 2px solid #000000;
   padding-left: 7px;
 }
+.user-repo:hover {
+  background-color: #65cdf9;
+}
 .rep {
   display: flex;
   justify-content: space-between;
@@ -52,10 +55,6 @@ body {
 .rep:first-child {
   margin-top: 45px;
 }
-/* .rep-info {
-  display: flex;
-  flex-direction: column;
-} */
 .cancel-button {
   background-color: #e27beb;
   border: none;
